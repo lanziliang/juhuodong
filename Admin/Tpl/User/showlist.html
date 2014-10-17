@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+        <title>用户列表</title>
+        <link href="{$smarty.const.ADMIN_CSS_URL}general.css" rel="stylesheet" type="text/css" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}main.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <style>
+            {literal}
+            .tr_color{background-color: #9F88FF}
+            {/literal}
+        </style>
+        
+        <h1>
+            <span class="action-span"><a href="__URL__/add">添加管理员</a></span>
+            <span class="action-span1"><a href="#">当前位置是：权限管理-》管理员列表</a> </span>
+            <div style="clear:both"></div>
+        </h1>
+        
+        <div></div>
+        <div class="list-div" id="listDiv">
+            <table cellpadding="3" cellspacing="1">
+                <tr>
+                    <th>序号</th>
+                    <th><a href="#">管理员名称</a></th>
+                    <th><a href="#">角色</a></th>
+                  <tr>
+                
+                    {foreach $info as $k=>$v}
+                    <tr id="product1">
+                        <td align="center">{$v@iteration}</td>
+                        <td align="center"><a href="#">{$v.username}</a></td>
+                        <td align="center">{$role_info[$v.role_id]}</td>
+                    </tr>
+                    {/foreach}
+                
+            </table>
+        </div>
+    </body>
+</html>

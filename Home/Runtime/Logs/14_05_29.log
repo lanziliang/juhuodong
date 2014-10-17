@@ -1,0 +1,27 @@
+[ 2014-05-29T10:07:37+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/delectliuyan/ly/3
+ERR: Model:delect您所请求的方法不存在！
+
+[ 2014-05-29T10:15:36+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/delectliuyan/ly/3
+ERR: Model:delect您所请求的方法不存在！
+
+[ 2014-05-29T10:16:29+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/delectliuyan/ly/3
+ERR: Model:delect您所请求的方法不存在！
+
+[ 2014-05-29T10:16:48+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/delectliuyan/ly/10
+ERR: Model:delect您所请求的方法不存在！
+
+[ 2014-05-29T10:21:08+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/delectliuyan/ly/10
+ERR: Model:delect您所请求的方法不存在！
+
+[ 2014-05-29T10:25:29+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/delectliuyan/ly/16
+ERR: Model:delect您所请求的方法不存在！
+
+[ 2014-05-29T10:34:33+08:00 ] 127.0.0.1 /juhuodong/index.php/people/$_SESSION[%22id%22].html
+ERR: 无法加载模块:people
+
+[ 2014-05-29T10:35:11+08:00 ] 127.0.0.1 /juhuodong/index.php/people/$_SESSION[%22id%22].html
+ERR: 无法加载模块:people
+
+[ 2014-05-29T10:35:23+08:00 ] 127.0.0.1 /juhuodong/index.php/people/$_SESSION[%22id%22].html
+ERR: 无法加载模块:people
+

@@ -1,0 +1,428 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-ff28">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="renderer" content="webkit">
+
+    <title><?php echo ($un); ?>的聚活动</title>
+    
+  
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+  
+    <meta id="meta-viewport" name="viewport" content="width=980">
+
+  
+  
+
+
+  
+
+  
+
+  
+  
+  
+
+  
+
+
+  
+  
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/myhd.css" media="all">
+
+<script type="text/javascript" src="__PUBLIC__/Js/jquery.js"></script>
+<script>
+$(function(){
+var a=document.getElementById ("h");
+var b=document.getElementById ("t");
+   
+   if(a.innerHTML=='的账号')
+   {
+       a.innerHTML='登录';
+       b.innerHTML='注册';
+	   a.href="__APP__/Login/login";
+	   b.href="__APP__/Register/register";
+	   
+   }
+
+});
+</script>
+</head>
+<body><div style="display: none; left: 870px; top: -491px; width: 266px;" class="predictad" id="predictad_div"></div>
+  
+  
+  
+   
+
+
+
+
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+    
+
+
+
+
+
+
+<div class="top-nav-info">
+    
+
+    <span class="perf-metric"><!-- _performtips_ --></span>
+    <ul>
+       
+        <a id="h" href="__URL__/myhd/people/<?php echo ($uid); ?>" class="nav-login" rel="nofollow"><?php echo ($name); ?>的账号</a>
+      <a id="t" href="__APP__/Login/doLogout" class="nav-register" rel="nofollow">退出</a>
+     </ul>
+</div>
+
+
+    
+
+    <div class="global-nav-items">
+     
+    </div>
+  </div>
+</div>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+<div id="db-nav-location" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-search">
+      <form id="nav-search-form" action="http://www.douban.com/event/search" method="get">
+          
+          <div class="inp">
+            <label style="display: none;" for="inp-query">活动名称、地点、介绍、舞台剧</label>
+            <input autocomplete="off" widdit="on" placeholder="活动名称、地点、介绍、舞台剧" class="inp-text" id="inp-query" name="search_text" size="22" value="">
+            <input class="inp-btn" value="搜索" type="submit">
+          </div>
+            <input name="loc" value="beijing" type="hidden">
+      </form>
+    </div>
+    <div class="nav-items nav-logged-in">
+      <ul>
+	  <li>
+         <img src="__PUBLIC__/Images/home_logo.png" onclick="javascript:window.location.href='__URL__/index'" style="cursor:pointer" />
+    </li>
+    <li>
+        <a href="__URL__/fenlei/fl/all">本地活动</a>
+    </li>
+     
+    <li>
+        <a id="lnk-my-loc" href="__URL__/myhd/people/<?php echo ($uid); ?>">我的活动</a>
+    </li>
+	<li><a href="__URL__/mydetail/people/<?php echo ($uid); ?>">我的主页</a></li>
+      </ul>
+  </div>
+ 
+  </div>
+  </div>
+</div>
+
+
+
+
+
+
+  
+
+  <div id="wrapper" class="fwrap">
+      
+<div id="content">
+    
+  
+
+
+
+
+<div id="db-usr-profile">
+  <div class="pic">
+    <a href="__URL__/myhd/people/<?php echo ($id); ?>"><img alt=" <?php echo ($name); ?>" src="__PUBLIC__/avatar/<?php echo ($userdetail["image"]); ?>_60.jpg"></a>
+  </div>
+  
+  <div class="info">
+    <h1>
+	<span>
+        &nbsp;
+      </span>
+        <?php echo ($un); ?>的活动
+        
+        <span class="edtext pl">
+          <span>厦门</span>
+        </span>
+    </h1>
+    <p>
+	<span>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </span>
+      <span>
+        <a href="__URL__/myhd/people/<?php echo ($id); ?>">活动主页</a>
+      </span>
+		<span>
+        <a href="__URL__/wish/people/<?php echo ($id); ?>" >感兴趣</a>
+      </span>
+	  
+      <span>
+        <a href="__URL__/faqi/people/<?php echo ($id); ?>">发起</a>
+      </span>
+      <span>
+        <a href="__URL__/mydetail/people/<?php echo ($id); ?>">个人主页</a>
+      </span>
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="grid-free clearfix">
+        
+        
+        <div class="article">
+               
+  
+
+    
+
+
+<div class="mod event-mod">
+  <h2>
+   感兴趣
+    <em>( <a href="__URL__/wish/people/<?php echo ($id); ?>">可参加<?php echo ($xqok); ?></a>·<a href="__URL__/wishover/people/<?php echo ($id); ?>">已过期<?php echo ($xqover); ?></a> )</em>
+  </h2>
+  <ul class="events-list events-list-2col events-list-pic70">
+  <?php if(is_array($canjia)): foreach($canjia as $key=>$vo): ?><li class="list-entry">
+      <div class="pic">
+        <a tabindex="-1" href="__URL__/detail/event/<?php echo ($vo["huodong"]["id"]); ?>">
+          <img alt=""  src="__PUBLIC__/Uploads/<?php echo ($vo["huodong"]["image"]); ?>" width="70">
+        </a>
+      </div>
+      <div class="info">
+        <div class="title">
+          <a href="__URL__/detail/event/<?php echo ($vo["huodong"]["id"]); ?>" title=" <?php echo ($vo["huodong"]["title"]); ?>">
+           <?php echo ($vo["huodong"]["title"]); ?>
+            
+          </a>
+        </div>
+        <div class="datetime">
+			<span class="month"><?php echo ($vo["huodong"]["showtime"]); ?></span>
+		</div>
+        <address title="<?php echo ($vo["huodong"]["address"]); ?>">
+          <?php echo ($vo["huodong"]["address"]); ?>
+        </address>
+     </div>
+      </li><?php endforeach; endif; ?>
+  </ul>
+</div>
+
+
+
+    
+
+
+
+    
+
+<div class="mod event-mod">
+  <h2>
+    发起
+    <span class="pl">( <a href="__URL__/faqi/people/<?php echo ($id); ?>">可参加<?php echo ($fqok); ?></a>·<a href="__URL__/faqiover/people/<?php echo ($id); ?>">已过期<?php echo ($fqover); ?></a> )</span>
+  </h2>
+  
+
+
+
+
+  
+  
+
+  <ul class="events-list events-list-2col events-list-pic70">
+  <?php if(is_array($faqi)): foreach($faqi as $key=>$vo): ?><li class="list-entry">
+      <div class="pic">
+        <a tabindex="-1" href="__URL__/detail/event/<?php echo ($vo["id"]); ?>">
+          <img alt=""  src="__PUBLIC__/Uploads/<?php echo ($vo["image"]); ?>" width="70">
+        </a>
+      </div>
+      <div class="info">
+        <div class="title">
+          <a href="__URL__/detail/event/<?php echo ($vo["id"]); ?>" title="<?php echo ($vo["title"]); ?>">
+            <?php echo ($vo["title"]); ?>
+            
+          </a>
+        </div>
+        <div class="datetime">
+          
+    <span class="month"><?php echo ($vo["showtime"]); ?></span>
+
+        </div>
+        <div>
+         <?php echo ($vo["love"]); ?>人关注
+        </div>
+      </div>
+      </li><?php endforeach; endif; ?>
+  </ul>
+
+  
+
+
+
+</div>
+
+
+        </div>
+        <div class="aside">
+                
+
+
+
+  
+
+
+<div class="mod">
+  <h2>
+    <?php echo ($un); ?>感兴趣的聚活动发起人
+    <em>
+      (<a href="http://www.douban.com/location/people/3287766/groups">全部15</a>)
+    </em>
+  </h2>
+    
+<ul class="avatar-list inline-list">
+  
+  <li>
+  <a class="avatar" href="http://www.douban.com/group/Eason/" tabindex="-1">
+    <img src="g13364-20.jpg" alt="奕身迅情 | The Key" height="48" width="48">
+  </a>
+  <a class="name" href="http://www.douban.com/group/Eason/">奕身迅情 | The Key</a>
+  
+  </li><li>
+  <a class="avatar" href="http://www.douban.com/group/chubanren/" tabindex="-1">
+    <img src="g236980-1.jpg" alt="北京出版人沙龙" height="48" width="48">
+  </a>
+  <a class="name" href="http://www.douban.com/group/chubanren/">北京出版人沙龙</a>
+  
+  </li><li>
+  <a class="avatar" href="http://www.douban.com/group/lygx/" tabindex="-1">
+    <img src="g107316-1.jpg" alt="讲座录音分享" height="48" width="48">
+  </a>
+  <a class="name" href="http://www.douban.com/group/lygx/">讲座录音分享</a>
+  
+  </li><li>
+  <a class="avatar" href="http://www.douban.com/group/hg/" tabindex="-1">
+    <img src="g10064-1.jpg" alt="背包客的人文地理" height="48" width="48">
+  </a>
+  <a class="name" href="http://www.douban.com/group/hg/">背包客的人文地理</a>
+  
+  </li><li>
+  <a class="avatar" href="http://www.douban.com/group/JoannaWang/" tabindex="-1">
+    <img src="g77374-2.jpg" alt="Joanna Wang | 王若琳" height="48" width="48">
+  </a>
+  <a class="name" href="http://www.douban.com/group/JoannaWang/">Joanna Wang | 王若琳</a>
+  
+  </li><li>
+  <a class="avatar" href="http://www.douban.com/group/gongyi/" tabindex="-1">
+    <img src="g13784-7.jpg" alt="豆瓣公益" height="48" width="48">
+  </a>
+  <a class="name" href="http://www.douban.com/group/gongyi/">豆瓣公益</a>
+  
+  </li><li>
+  <a class="avatar" href="http://www.douban.com/group/Tanya/" tabindex="-1">
+    <img src="g16804-79.jpg" alt="蔡健雅" height="48" width="48">
+  </a>
+  <a class="name" href="http://www.douban.com/group/Tanya/">蔡健雅</a>
+  
+  </li><li>
+  <a class="avatar" href="http://www.douban.com/group/lbr/" tabindex="-1">
+    <img src="g15340-1.jpg" alt="刘宝瑞" height="48" width="48">
+  </a>
+  <a class="name" href="http://www.douban.com/group/lbr/">刘宝瑞</a>
+</li></ul>
+
+</div>
+
+
+    
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+</div>
+
+      
+  <div id="footer">
+    <div class="hidden-sm">
+      
+
+<span id="icp" class="fleft gray-link">
+    © 2005－2014 juhuodong.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于聚活动</a>
+
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+
+    
+    · <a href="http://www.douban.com/location/help/">帮助中心</a>
+
+</span>
+
+
+    </div>
+  </div>
+
+  </div>
+  
+  
+  
+    
+
+
+
+
+
+
+
+
+  <!-- dis17-->
+  
+
+  
+
+
+
+
+
+</body>
+</html>

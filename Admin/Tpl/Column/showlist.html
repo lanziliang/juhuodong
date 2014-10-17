@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>栏目列表 </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}general.css" rel="stylesheet" type="text/css" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}main.css" rel="stylesheet" type="text/css" />
+        
+        <script type="text/javascript">
+            function show_confirm()
+            {
+                var r=confirm("确定要移除该栏目？");
+                if (r==false)
+                {
+                  return false;
+                }
+            }
+            
+            function show_confirm1()
+            {
+                var r1=confirm("确定要移除该栏目及所有子栏目？");
+                if (r1==false)
+                {
+                  return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+
+        <h1>
+            <span class="action-span"><a href="__URL__/add">添加栏目</a></span>
+            <span class="action-span1"><a href="#">当前位置是：栏目管理-》栏目列表</a> </span>
+            <div style="clear:both"></div>
+        </h1>
+        <form method="post" action="" name="listForm">
+            <div class="list-div" id="listDiv">
+
+                <table width="100%" cellspacing="1" cellpadding="2" id="list-table">
+                    <tr>
+                        <th>栏目名称</th>
+                        <th>操作</th>
+                    </tr>
+
+                    {foreach $info as $k=>$v}
+                    <tr align="center" class="0" id="0_1" id = 'tr_4'>
+                        <td align="left" class="first-cell" style = 'padding-left="1"'>
+                            <img src="{$smarty.const.ADMIN_IMG_URL}menu_minus.gif" id="icon_0_1" width="9" height="9" border="0" style="margin-left:{$v.lev}em" />
+                            <span><a href="#" >{$v.c_name}</a></span>
+                        </td>
+                        <td width="24%" align="center">
+                            <a href="__URL__/edit/c_id/{$v.c_id}">编辑</a> |
+                            <a href="__URL__/delete/c_id/{$v.c_id}" {if $v.p_id==0} onclick="return show_confirm1();" {else} onclick="return show_confirm();" {/if} title="移除">移除</a>
+                        </td>
+                    </tr>
+                    {/foreach}
+                </table>
+            </div>
+        </form>
+
+
+    </body>
+</html>

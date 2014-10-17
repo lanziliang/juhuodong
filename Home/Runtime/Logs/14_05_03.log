@@ -1,0 +1,1000 @@
+[ 2014-05-03T21:00:35+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/detail/event/16
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006209s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004961s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.037984s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `id` = 16 )  [ RunTime:0.006816s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006261s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.002492s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.008089s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='16' )  [ RunTime:0.000688s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `id` = 16 )  [ RunTime:0.001387s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='16' )  [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.009989s ]
+SQL: SELECT * FROM `tp_love` WHERE ( `hdid` = 16 )  [ RunTime:0.000912s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001008s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.000598s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.063197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063468s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005127s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003491s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004561s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017604s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006599s ]
+
+[ 2014-05-03T21:00:35+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/detail_3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003516s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003719s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Constant THEME_NAME already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025720s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002161s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003035s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002906s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011197s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002993s ]
+
+[ 2014-05-03T21:00:35+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/detail_1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005442s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005213s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Constant THEME_NAME already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047033s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003737s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018542s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004773s ]
+
+[ 2014-05-03T21:00:35+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/untitled_002.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004189s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004294s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:untitled_002.dat
+
+[ 2014-05-03T21:00:35+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001842s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:untitled
+
+[ 2014-05-03T21:00:35+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/size=300x250
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005446s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005746s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003999s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:size=300x250
+
+[ 2014-05-03T21:00:40+08:00 ] 127.0.0.1 /juhuodong/index.php/Huodong/love
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007007s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007346s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005659s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.008154s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_love` WHERE ( `uid` = 13 ) AND ( `hdid` = 16 ) LIMIT 1   [ RunTime:0.001329s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2014-05-03T21:01:00+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/detail_3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Constant THEME_NAME already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031271s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001231s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004235s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000866s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008636s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001974s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002202s ]
+
+[ 2014-05-03T21:01:00+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/detail_1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006232s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005362s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Constant THEME_NAME already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061028s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003897s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005901s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004791s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021451s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004840s ]
+
+[ 2014-05-03T21:01:00+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/untitled_002.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:untitled_002.dat
+
+[ 2014-05-03T21:01:00+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/size=300x250
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004178s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:size=300x250
+
+[ 2014-05-03T21:01:00+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003329s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003615s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:untitled
+
+[ 2014-05-03T21:01:16+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003584s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029982s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003773s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003613s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015545s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010046s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010336s ]
+
+[ 2014-05-03T21:01:18+08:00 ] 127.0.0.1 /juhuodong/index.php/Register/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003305s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002044s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040137s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005029s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006087s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004756s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023189s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010289s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010756s ]
+
+[ 2014-05-03T21:01:19+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003557s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004044s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Extend\Library\ORG\Util\Image.class.php 第 550 行.
+
+[ 2014-05-03T21:01:22+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.8812097110785544
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003776s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002363s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Extend\Library\ORG\Util\Image.class.php 第 550 行.
+
+[ 2014-05-03T21:03:33+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007977s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008427s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005775s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:Touxiang
+
+[ 2014-05-03T21:03:37+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007861s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009580s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 无法加载模块:Touxiang
+
+[ 2014-05-03T21:03:40+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/detail_1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007381s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007769s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.037125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038336s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Constant THEME_NAME already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005170s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005227s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.007192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.024211s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007390s ]
+
+[ 2014-05-03T21:03:40+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/detail_3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003479s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003729s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004607s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Constant THEME_NAME already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.094782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095237s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004069s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003196s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002825s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016968s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004606s ]
+
+[ 2014-05-03T21:03:40+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/size=300x250
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007059s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007450s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011168s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:size=300x250
+
+[ 2014-05-03T21:03:40+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007710s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014049s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:untitled
+
+[ 2014-05-03T21:03:40+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/untitled_002.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003185s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003574s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002469s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:untitled_002.dat
+
+[ 2014-05-03T21:05:46+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004518s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004206s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.010117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` LIMIT 1   [ RunTime:0.000624s ]
+SQL: SELECT * FROM `tp_huodong` LIMIT 0,3   [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.021602s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000796s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.007097s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='14' )  [ RunTime:0.002604s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='13' )  [ RunTime:0.000577s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000613s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='15' )  [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.054380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054779s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007012s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004804s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001944s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026116s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005298s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005546s ]
+
+[ 2014-05-03T21:05:47+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007823s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008727s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.008745s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` LIMIT 1   [ RunTime:0.001793s ]
+SQL: SELECT * FROM `tp_huodong` LIMIT 0,3   [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009658s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.002610s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.010120s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='14' )  [ RunTime:0.002657s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000653s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='13' )  [ RunTime:0.000683s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='15' )  [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044034s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002910s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004031s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003013s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014066s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004524s ]
+
+[ 2014-05-03T21:11:33+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005333s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005734s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004535s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.008995s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` LIMIT 1   [ RunTime:0.000886s ]
+SQL: SELECT * FROM `tp_huodong` LIMIT 0,3   [ RunTime:0.001508s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008265s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.004220s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.007952s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='14' )  [ RunTime:0.002687s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000652s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='13' )  [ RunTime:0.000447s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='15' )  [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035582s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002562s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002924s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002020s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010646s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010935s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011266s ]
+
+[ 2014-05-03T21:11:34+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004885s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005159s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.007568s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` LIMIT 1   [ RunTime:0.000543s ]
+SQL: SELECT * FROM `tp_huodong` LIMIT 0,3   [ RunTime:0.001224s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007126s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.003129s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.006715s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='14' )  [ RunTime:0.001572s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000512s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='13' )  [ RunTime:0.000420s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000402s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='15' )  [ RunTime:0.001611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029978s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002698s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002480s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011832s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005440s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005734s ]
+
+[ 2014-05-03T21:11:52+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004274s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002858s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.008939s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` LIMIT 1   [ RunTime:0.000693s ]
+SQL: SELECT * FROM `tp_huodong` LIMIT 0,3   [ RunTime:0.001623s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007758s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.002861s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.008280s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='14' )  [ RunTime:0.002219s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000697s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='13' )  [ RunTime:0.000714s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000798s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='15' )  [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029368s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001340s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001221s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006309s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006645s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008076s ]
+
+[ 2014-05-03T21:11:53+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005138s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.008723s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` LIMIT 1   [ RunTime:0.000692s ]
+SQL: SELECT * FROM `tp_huodong` LIMIT 0,3   [ RunTime:0.001428s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.008369s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.003878s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.008404s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='14' )  [ RunTime:0.002854s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001458s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='13' )  [ RunTime:0.000742s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001034s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='15' )  [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.008574s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008872s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029809s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.027326s ]
+INFO: [ view_end ] --END-- [ RunTime:0.027688s ]
+
+[ 2014-05-03T21:15:37+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003444s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003703s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.014297s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` LIMIT 1   [ RunTime:0.001186s ]
+SQL: SELECT * FROM `tp_huodong` LIMIT 0,3   [ RunTime:0.001425s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.005750s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.005678s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='14' )  [ RunTime:0.002291s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000613s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='13' )  [ RunTime:0.000594s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='15' )  [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004276s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003590s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003044s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015702s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005636s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005878s ]
+
+[ 2014-05-03T21:15:39+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003499s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.007294s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` LIMIT 1   [ RunTime:0.000603s ]
+SQL: SELECT * FROM `tp_huodong` LIMIT 0,3   [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.006340s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001930s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.007223s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='14' )  [ RunTime:0.002396s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000689s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='13' )  [ RunTime:0.000933s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: SELECT * FROM `tp_love` WHERE ( 1=1 AND hdid='15' )  [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045347s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005010s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005141s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019505s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005219s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005497s ]
+
+[ 2014-05-03T21:16:02+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/{:U("Index/uploadImg")}
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003960s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:{:U("Index
+
+[ 2014-05-03T21:47:01+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004711s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003033s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034110s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004236s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003615s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002977s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006237s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006614s ]
+
+[ 2014-05-03T21:47:03+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008066s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008621s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002547s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067467s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005570s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004935s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023404s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005876s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006172s ]
+
+[ 2014-05-03T21:47:11+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/{:U("Index/uploadImg")}
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003536s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002495s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:{:U("Index
+
+[ 2014-05-03T21:56:14+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004745s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.084918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085454s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004221s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003893s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002961s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016304s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006314s ]
+
+[ 2014-05-03T21:56:15+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002696s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002959s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039413s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001110s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000715s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005873s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002584s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002824s ]
+
+[ 2014-05-03T21:56:31+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/{:U("Index/uploadImg")}
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005597s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004155s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:{:U("Index
+
+[ 2014-05-03T22:01:07+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006312s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005064s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056493s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004245s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005116s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019847s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008738s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009288s ]
+
+[ 2014-05-03T22:01:08+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005803s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006852s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001389s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008767s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009982s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010503s ]
+
+[ 2014-05-03T22:01:18+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/{:U("Touxiang/uploadImg")}
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:{:U("Touxiang
+
+[ 2014-05-03T22:01:26+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/{:U("Touxiang/uploadImg")}
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002612s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002667s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:{:U("Touxiang
+
+[ 2014-05-03T22:11:51+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003610s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003891s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004579s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032335s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002388s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010314s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005620s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005944s ]
+
+[ 2014-05-03T22:14:55+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003659s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003928s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.119719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003650s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002987s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015849s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005200s ]
+
+[ 2014-05-03T22:14:56+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040144s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001411s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003176s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000945s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012268s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002107s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002386s ]
+
+[ 2014-05-03T22:15:03+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003211s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003393s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\TouxiangAction.class.php 第 29 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2014-05-03T22:15:15+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005550s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005786s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003462s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\TouxiangAction.class.php 第 29 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+
+[ 2014-05-03T22:15:19+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005012s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002974s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.050321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050611s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004039s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002889s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013391s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007036s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007387s ]
+
+[ 2014-05-03T22:17:06+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003180s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002571s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\TouxiangAction.class.php 第 29 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\Action.class.php 第 321 行.
+

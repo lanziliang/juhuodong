@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>活动列表 </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}general.css" rel="stylesheet" type="text/css" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}main.css" rel="stylesheet" type="text/css" />
+        
+        <script type="text/javascript">
+            function show_confirm()
+            {
+                var r=confirm("您确定要将该活动彻底删除？");
+                if (r==false)
+                {
+                  return false;
+                }
+            }
+            function show_confirm1()
+            {
+                var r=confirm("您确定要还原该活动？");
+                if (r==false)
+                {
+                  return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>
+            <span class="action-span1"><a href="#">当前位置是：活动管理-》回收列表</a> </span>
+            <div style="clear:both"></div>
+        </h1>
+
+        <form method="post" action="" name="listForm" >
+            <div class="list-div" id="listDiv">
+                <table cellpadding="3" cellspacing="1">
+                    <tr>
+                        <th>序号</th>
+                        <th>活动标题</th>
+                        <th>活动时间</th>
+                        <th>活动地点</th>
+                        <th>类型</th>
+                        <th>发布时间</th>
+                        <th>状态</th>
+                        <th>操作</th>
+                    </tr>
+                    {foreach $info as $k=>$v}
+                    <tr>
+                        <td align="center">{$v@iteration}</td>
+                        <td>{$v.title}</td>
+                        <td align="center">{date('Y-m-d',$v.hdtime)}</td>
+                        <td>{$v.address}</td>
+                        <td align="center">{$v.type}</td>
+                        <td align="center">{date('Y-m-d H:i:s',$v.time)}</td>
+                        <td align="center">{if $v.checked==0}未审核{else}已审核{/if}</td>
+                        <td align="center">
+                            <a href="__URL__/resume/id/{$v.id}" onclick="return show_confirm1();">还原</a> |
+                            <a href="__URL__/delete/id/{$v.id}" onclick="return show_confirm();" >删除</a>
+                        </td>
+                    </tr>
+                    {/foreach}
+                </table>
+
+                <table id="page-table" cellspacing="0">
+                    <tr>
+                        <td align="center" nowrap="true">
+                            {$page_list}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </body>
+</html>

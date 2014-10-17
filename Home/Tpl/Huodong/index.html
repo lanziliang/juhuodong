@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>所有活动</title>
+	
+	<load href="__PUBLIC__/Js/Base.js" />
+<load href="__PUBLIC__/Js/prototype.js" />
+<load href="__PUBLIC__/Js/mootools.js" />
+<load href="__PUBLIC__/Js/Ajax/ThinkAjax.js" />
+	<script language="JavaScript">
+
+	 function dolove(name,result){
+		 ThinkAjax.sendForm(name,'__URL__/love',complete,result);
+	}
+	function complete(data,status){
+	if (status==0)
+  {
+    
+  }
+	}
+ 
+	</script>
+	</head>
+	<body>
+		<foreach name='list' item='vo'>
+			<p>活动标题：</p><{$vo.title}><br/>
+			<p>活动地点：</p><{$vo.address}><br/>
+			<p>活动时间：</p><{$vo.hdtime|date='Y年m月d日',###}>&nbsp;&nbsp;&nbsp;<{$vo.hdstart}>&nbsp;至&nbsp;<{$vo.hdend}><br/>
+			<p>活动费用：</p><{$vo.money}><br/>
+			<p>活动类型：</p><{$vo.type}><br/>
+			<p>活动详情：</p><{$vo.detail}><br/>
+			<p>发布时间：</p><{$vo.time|date='Y年m月d日 H:i:s',###}><br/>
+			<p>活动发起人：</p><{$vo.username}>&nbsp;&nbsp;&nbsp;<a href="__APP__/Content/index/toid/<{$vo.uid}>/toname/<{$vo.username}>" target="_blank">给他（她）留言</a><br/>
+			<p>附件名：</p><{$vo.image}><br/>
+			<image src="__PUBLIC__/Uploads/<{$vo.image}>" /><br/>
+			<form action="" method="post" id="<{$vo.id}>">
+			<input type="text" value="<{$vo.id}>" name="id" />
+			<input type="text" value="<{$uid}>" name="uid" />
+			<input type="button" onClick="dolove('<{$vo.id}>','<{$vo.time}>')" value="我感兴趣" />
+			</form>
+			<p><{$vo.love}>人感兴趣&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" onclick="dolove('<{$vo.id}>','<{$vo.time}>')">我感兴趣</a><span id='<{$vo.time}>'></span></p><br/>
+			<hr/>
+		</foreach>
+		<{$show}>
+	</body>
+</html>

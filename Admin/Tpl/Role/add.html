@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>添加角色</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}general.css" rel="stylesheet" type="text/css" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}main.css" rel="stylesheet" type="text/css" />
+        <style>
+            {literal}
+            li {list-style-type:none;}
+            {/literal}
+        </style>
+    </head>
+
+    <body>
+           <h1>
+            <span class="action-span"><a href="{$smarty.const.__GROUP__}/Role/showlist">返回&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+            <span class="action-span1"><a href="#">当前位置是：角色管理-》添加角色信息</a> </span>
+            <div style="clear:both"></div>
+            </h1>
+        
+        <div></div>
+
+        <div style="font-size: 13px;margin: 10px 5px">
+            
+            <form action="__SELF__" method="post" enctype="multipart/form-data">
+                
+                <span>角色名&nbsp;<input type="text" name="role_name" /></span>
+            <ul>
+                {foreach $p_auth as $k=>$v}
+                <li>{$v.auth_name}<input type="checkbox" name="auth_name[]" value="{$v.auth_id}" /></li>
+                <li>
+                    <ul>
+                        {foreach $s_auth as $kk=>$vv}
+                        {if $vv.auth_pid==$v.auth_id}
+                        <li>{$vv.auth_name}<input type="checkbox" name="auth_name[]" value="{$vv.auth_id}" /></li>
+                        <li>
+                            <ul>
+                                {foreach $t_auth as $kkk=>$vvv}
+                                {if $vvv.auth_pid==$vv.auth_id}
+                                <li>{$vvv.auth_name}<input type="checkbox" name="auth_name[]" value="{$vvv.auth_id}" /></li>
+                                {/if}
+                                {/foreach}
+                            </ul>
+                        </li>
+                        {/if}
+                        {/foreach}
+                    </ul>
+                </li>
+                {/foreach}
+            </ul>
+            <input type="submit" value="分配权限">
+            </form>
+        </div>
+    </body>
+</html>

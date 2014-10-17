@@ -1,0 +1,42 @@
+[ 2014-05-05T09:29:09+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Model:getTree您所请求的方法不存在！
+
+[ 2014-05-05T09:29:22+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Model:getCatTree您所请求的方法不存在！
+
+[ 2014-05-05T09:29:28+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Model:getCatTree您所请求的方法不存在！
+
+[ 2014-05-05T09:29:48+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Syntax Error in template "./Admin/Tpl\Column\showlist.html"  on line 34 "&lt;a href=&quot;catedel.php?cat_id=&lt;?php echo $v['cat_id'];?&gt;&quot; onclick=&quot;if (!confirm('确实要删除吗?')) {return false;};&quot; title=&quot;移除&quot;&gt;移除&lt;/a&gt;"  - Unexpected ";", expected one of: "}" , " "
+
+[ 2014-05-05T09:30:27+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Syntax Error in template "./Admin/Tpl\Column\showlist.html"  on line 34 "&lt;a href=&quot;catedel.php?cat_id=&lt;?php echo $v['cat_id'];?&gt;&quot; onclick=&quot;if (!confirm('确实要删除吗?')) {return false;}&quot; title=&quot;移除&quot;&gt;移除&lt;/a&gt;"  - Unexpected ";", expected one of: "}" , " "
+
+[ 2014-05-05T09:32:45+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Syntax Error in template "./Admin/Tpl\Column\showlist.html"  on line 34 "&lt;a href=&quot;catedel.php?cat_id=&lt;?php echo $v['cat_id'];?&gt;&quot; onclick=&quot;if (!confirm('确实要删除吗?')) {return false;}&quot; title=&quot;移除&quot;&gt;移除&lt;/a&gt;"  - Unexpected ";", expected one of: "}" , " "
+
+[ 2014-05-05T09:38:03+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/add
+ERR: 非法操作:add
+
+[ 2014-05-05T09:41:55+08:00 ] 127.0.0.1 /juhuodong/admin.php/Auth/sss
+ERR: 非法操作:sss
+
+[ 2014-05-05T09:42:24+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/cateadd.php
+ERR: 非法操作:cateadd.php
+
+[ 2014-05-05T10:05:24+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Syntax Error in template "./Admin/Tpl\Column\showlist.html"  on line 33 "&lt;a href=&quot;__URL__/delete/c_id/{$v.c_id}&quot; onclick=&quot;{if !confirm('确实要删除吗?')}return false;{/if}&quot; title=&quot;移除&quot;&gt;移除&lt;/a&gt;" unknown function "confirm"
+
+[ 2014-05-05T10:05:26+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Syntax Error in template "./Admin/Tpl\Column\showlist.html"  on line 33 "&lt;a href=&quot;__URL__/delete/c_id/{$v.c_id}&quot; onclick=&quot;{if !confirm('确实要删除吗?')}return false;{/if}&quot; title=&quot;移除&quot;&gt;移除&lt;/a&gt;" unknown function "confirm"
+
+[ 2014-05-05T10:09:31+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/showlist
+ERR: Syntax Error in template "./Admin/Tpl\Column\showlist.html"  on line 33 "&lt;a href=&quot;__URL__/delete/c_id/{$v.c_id}&quot; onclick=&quot;&lt;?php if(!confirm('确实要删除吗?')){return false;}?&gt;&quot; title=&quot;移除&quot;&gt;移除&lt;/a&gt;"  - Unexpected ";", expected one of: "}" , " "
+
+[ 2014-05-05T12:31:56+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/add
+ERR: Model:saveColumn您所请求的方法不存在！
+
+[ 2014-05-05T12:34:09+08:00 ] 127.0.0.1 /juhuodong/admin.php/Column/add
+ERR: Model:saveColumn您所请求的方法不存在！
+

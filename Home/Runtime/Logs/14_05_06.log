@@ -1,0 +1,89 @@
+[ 2014-05-06T20:42:57+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/myhd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003648s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.005889s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.001696s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.005763s ]
+ERR: Model:relation您所请求的方法不存在！
+
+[ 2014-05-06T20:43:45+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/myhd
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003244s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.007587s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( `id` = 9 ) LIMIT 1   [ RunTime:0.003665s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.007514s ]
+SQL: SELECT * FROM `tp_love` WHERE ( `uid` = 9 )  [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.012023s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.003828s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.007460s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.002373s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.009369s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='38' ) LIMIT 1   [ RunTime:0.002099s ]
+ERR: 1054:Unknown column 'hdid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='38' ) LIMIT 1  
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000938s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000738s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='37' ) LIMIT 1   [ RunTime:0.000548s ]
+ERR: 1054:Unknown column 'hdid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='37' ) LIMIT 1  
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='67' ) LIMIT 1   [ RunTime:0.000661s ]
+ERR: 1054:Unknown column 'hdid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='67' ) LIMIT 1  
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000745s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000885s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='69' ) LIMIT 1   [ RunTime:0.000902s ]
+ERR: 1054:Unknown column 'hdid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='69' ) LIMIT 1  
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000854s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000879s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='70' ) LIMIT 1   [ RunTime:0.000478s ]
+ERR: 1054:Unknown column 'hdid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='70' ) LIMIT 1  
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000807s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='71' ) LIMIT 1   [ RunTime:0.000581s ]
+ERR: 1054:Unknown column 'hdid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='71' ) LIMIT 1  
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000805s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.000742s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='72' ) LIMIT 1   [ RunTime:0.000567s ]
+ERR: 1054:Unknown column 'hdid' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `tp_huodong` WHERE ( 1=1 AND hdid='72' ) LIMIT 1  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.058381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058781s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003781s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004039s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003824s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016628s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006291s ]
+
+[ 2014-05-06T20:43:45+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/swf.swf
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002929s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001934s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+ERR: 非法操作:swf.swf
+

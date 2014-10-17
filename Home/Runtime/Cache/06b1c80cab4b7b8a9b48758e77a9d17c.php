@@ -1,0 +1,18 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+      <base target="_blank">
+      
+    
+
+</head>
+<body scroll="no">
+      <a href="<?php echo ($ad["adaddress"]); ?>" target="_blank">
+		<img src="__PUBLIC__/Images/ad/<?php echo ($ad["adimage"]); ?>" border="0" height="250" width="300">
+		<img src="a18116,b200361393,c2801,i0,m202,h" style="position: absolute;" border="0" height="0" width="0"></a>
+      <img src="untitled" style="position: absolute;" border="0" height="0" width="0">
+    
+    </body>
+</html>

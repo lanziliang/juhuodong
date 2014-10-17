@@ -1,0 +1,2235 @@
+[ 2014-05-10T22:28:53+08:00 ] 127.0.0.1 /juhuodong/index.php/Register/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005666s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005957s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006006s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048880s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003695s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002858s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014216s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005794s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006187s ]
+
+[ 2014-05-10T22:28:53+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007465s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007745s ]
+NOTIC: [2] session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Common\functions.php 第 566 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Conf\config.php:1) D:\Program Files (x86)\xampp\htdocs\juhuodong\ThinkPHP\Extend\Library\ORG\Util\Image.class.php 第 550 行.
+
+[ 2014-05-10T22:29:18+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006275s ]
+NOTIC: [8] Undefined index:  username D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  id D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.008647s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.004816s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001617s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001926s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001653s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.003336s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001566s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.002564s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.002858s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.161508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.161913s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007287s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005621s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028064s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006964s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007343s ]
+
+[ 2014-05-10T22:29:18+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.016765s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005724s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.005437s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001594s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034960s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003125s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003566s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002683s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012546s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003353s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003523s ]
+
+[ 2014-05-10T22:29:18+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003066s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.012715s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.000879s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.048035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048320s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003918s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002960s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002538s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012887s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003029s ]
+
+[ 2014-05-10T22:29:19+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006220s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004313s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004306s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.002139s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024319s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003529s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004088s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005056s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015732s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003727s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003932s ]
+
+[ 2014-05-10T22:29:19+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006100s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004870s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004044s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001168s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025159s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002332s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002348s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002133s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003017s ]
+
+[ 2014-05-10T22:29:19+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003841s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004021s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003587s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004231s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.001437s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027952s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005376s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004970s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002540s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017081s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003174s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003326s ]
+
+[ 2014-05-10T22:29:23+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004359s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064902s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005128s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005244s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003846s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019348s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007138s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008257s ]
+
+[ 2014-05-10T22:29:25+08:00 ] 127.0.0.1 /juhuodong/index.php/Register/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012512s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005590s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.080175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080540s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005672s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023769s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.019839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.020307s ]
+
+[ 2014-05-10T22:29:25+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004169s ]
+
+[ 2014-05-10T22:29:28+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.09184906049631536
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013445s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005625s ]
+
+[ 2014-05-10T22:29:28+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.09184906049631536?0.9151947507634759
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008734s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006490s ]
+
+[ 2014-05-10T22:29:28+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.09184906049631536?0.9151947507634759?0.9453081130050123
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004439s ]
+
+[ 2014-05-10T22:29:28+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.09184906049631536?0.9151947507634759?0.9453081130050123?0.29436023719608784
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007581s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007974s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008343s ]
+
+[ 2014-05-10T22:29:28+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.09184906049631536?0.9151947507634759?0.9453081130050123?0.29436023719608784?0.5498517283704132
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008993s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006988s ]
+
+[ 2014-05-10T22:29:28+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.09184906049631536?0.9151947507634759?0.9453081130050123?0.29436023719608784?0.5498517283704132?0.9540049829520285
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003912s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004123s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004705s ]
+
+[ 2014-05-10T22:29:29+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.09184906049631536?0.9151947507634759?0.9453081130050123?0.29436023719608784?0.5498517283704132?0.9540049829520285?0.6100023328326643
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004130s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005413s ]
+
+[ 2014-05-10T22:35:07+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004667s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+NOTIC: [8] Undefined index:  username D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  id D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.048367s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.003279s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000783s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000818s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000692s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000627s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000600s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000606s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052603s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001851s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009106s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009984s ]
+
+[ 2014-05-10T22:35:08+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002789s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004829s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.002224s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018811s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003280s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001844s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001586s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009610s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003963s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004113s ]
+
+[ 2014-05-10T22:35:08+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004299s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.003360s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.000881s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026680s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002873s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002774s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011430s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002331s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002469s ]
+
+[ 2014-05-10T22:35:08+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003822s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004111s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.001734s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016257s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001282s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000944s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005275s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001635s ]
+
+[ 2014-05-10T22:35:08+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003106s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.003427s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021289s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002226s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002685s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001567s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008994s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003002s ]
+
+[ 2014-05-10T22:35:08+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003923s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002990s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004673s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002318s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001927s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001624s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007983s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002046s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002146s ]
+
+[ 2014-05-10T22:35:10+08:00 ] 127.0.0.1 /juhuodong/index.php/Register/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006582s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007716s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.114798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115173s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007074s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006657s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005897s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.007177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027848s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007163s ]
+
+[ 2014-05-10T22:35:10+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008525s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008848s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007054s ]
+
+[ 2014-05-10T22:35:11+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.7328969850204885
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005593s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005112s ]
+
+[ 2014-05-10T22:35:12+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.7328969850204885?0.36989230080507696
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006401s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006810s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005788s ]
+
+[ 2014-05-10T22:35:12+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.7328969850204885?0.36989230080507696?0.8536666471045464
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008224s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005178s ]
+
+[ 2014-05-10T22:35:12+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.7328969850204885?0.36989230080507696?0.8536666471045464?0.9444911126047373
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007151s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008710s ]
+
+[ 2014-05-10T22:35:12+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.7328969850204885?0.36989230080507696?0.8536666471045464?0.9444911126047373?0.1510052108205855
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005239s ]
+
+[ 2014-05-10T22:35:12+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/?0.7328969850204885?0.36989230080507696?0.8536666471045464?0.9444911126047373?0.1510052108205855?0.45863770809955895
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006214s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005214s ]
+
+[ 2014-05-10T22:54:33+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003604s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003157s ]
+NOTIC: [8] Undefined index:  username D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  id D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.007498s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.003179s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000766s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000939s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001155s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001002s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000863s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001018s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001595s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078116s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002153s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011585s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004183s ]
+
+[ 2014-05-10T22:54:33+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004603s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004729s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001582s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023513s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002070s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002713s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010750s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003487s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003670s ]
+
+[ 2014-05-10T22:54:33+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003236s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003901s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004660s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.001544s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002230s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001962s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009236s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002730s ]
+
+[ 2014-05-10T22:54:33+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007578s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007847s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004087s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004706s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001550s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022354s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004125s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003296s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012808s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003072s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003254s ]
+
+[ 2014-05-10T22:54:33+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005680s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005907s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003847s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.003932s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001679s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003406s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003389s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003078s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013610s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003215s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003406s ]
+
+[ 2014-05-10T22:54:34+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004222s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004472s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004163s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.003443s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022114s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002288s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002048s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009259s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002870s ]
+
+[ 2014-05-10T22:54:34+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007552s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007905s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.079860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080202s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004474s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004290s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005563s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004740s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019985s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006637s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006913s ]
+
+[ 2014-05-10T22:54:42+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006798s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005126s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005546s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009555s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `email` = '123@123.com' ) AND ( `password` = '81dc9bdb52d04dc20036dbd8313ed055' )  [ RunTime:0.001188s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057192s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005085s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015391s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004825s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030709s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.071848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.072145s ]
+
+[ 2014-05-10T22:54:43+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.020306s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020663s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005796s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.008350s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.005808s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001787s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001479s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001589s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001877s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000974s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001015s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000921s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.099926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100240s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005101s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003013s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004314s ]
+
+[ 2014-05-10T22:54:44+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005273s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004005s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.005782s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.003145s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044532s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003504s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003359s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003830s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007024s ]
+
+[ 2014-05-10T22:54:44+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008139s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006657s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.007188s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.003056s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049764s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004363s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004818s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005526s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020088s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006086s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006370s ]
+
+[ 2014-05-10T22:54:44+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006069s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006478s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004534s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004469s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001197s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028519s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002751s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002977s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003058s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012984s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003330s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003497s ]
+
+[ 2014-05-10T22:54:44+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006314s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006613s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004789s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.005254s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001492s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030484s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002901s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002948s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002533s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012191s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003690s ]
+
+[ 2014-05-10T22:54:44+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.005772s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.001371s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002782s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003227s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012961s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006581s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006905s ]
+
+[ 2014-05-10T22:54:47+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/myhd/people/10
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005497s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011774s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.003665s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.015948s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.001144s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.011178s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_love` WHERE ( `uid` = 10 ) LIMIT 1   [ RunTime:0.001011s ]
+SQL: SELECT * FROM `tp_love` WHERE ( `uid` = 10 )  [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009672s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.013106s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.010598s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='37' ) LIMIT 1   [ RunTime:0.005464s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001135s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000959s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.001217s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000697s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000742s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.000926s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000736s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001073s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.000845s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000749s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000730s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='39' ) LIMIT 1   [ RunTime:0.000899s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000761s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000613s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000741s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000562s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.000745s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000636s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000577s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='32' ) LIMIT 1   [ RunTime:0.003438s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001088s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000775s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.001203s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000799s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000862s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.001036s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001355s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001109s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001084s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.001046s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.005160s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.001185s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000956s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000781s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.001132s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001119s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000930s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.001078s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000878s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000734s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.000893s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000799s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000750s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.001017s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000859s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000767s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='43' ) LIMIT 1   [ RunTime:0.000855s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000757s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000679s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.000813s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` WHERE ( `hdtime` > 1399733687 ) AND ( `uid` = 10 ) LIMIT 1   [ RunTime:0.002182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` WHERE ( `hdtime` < 1399733687 ) AND ( `uid` = 10 ) LIMIT 1   [ RunTime:0.001939s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `hdtime` > 1399733687 ) AND ( `uid` = 10 ) LIMIT 6   [ RunTime:0.002966s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084317s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.006211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.006797s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005235s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026627s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.008424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008798s ]
+
+[ 2014-05-10T22:54:48+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004609s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004996s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003740s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035131s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003285s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011501s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004434s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003577s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003818s ]
+
+[ 2014-05-10T22:54:53+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007211s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004296s ]
+
+[ 2014-05-10T22:56:21+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003187s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+
+[ 2014-05-10T22:56:26+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003040s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003394s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+
+[ 2014-05-10T22:56:31+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+
+[ 2014-05-10T22:56:46+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011009s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011441s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006102s ]
+
+[ 2014-05-10T23:07:03+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006549s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006900s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005640s ]
+
+[ 2014-05-10T23:07:22+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004672s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004945s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004339s ]
+
+[ 2014-05-10T23:08:51+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007552s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006613s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.009144s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.005272s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001504s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001833s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001590s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001391s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001434s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001451s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001442s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.101858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102170s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003525s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002846s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012435s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004176s ]
+
+[ 2014-05-10T23:08:52+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006143s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006473s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005096s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.006098s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.002342s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039489s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003339s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002790s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004085s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004514s ]
+
+[ 2014-05-10T23:08:52+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006072s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003852s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.005419s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.001945s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036910s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003462s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003538s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013617s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004221s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004497s ]
+
+[ 2014-05-10T23:08:52+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005619s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005934s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005027s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.005891s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.003003s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030477s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003187s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012567s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004443s ]
+
+[ 2014-05-10T23:08:53+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004642s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003222s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004248s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001417s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022844s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001591s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002002s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007703s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003022s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003191s ]
+
+[ 2014-05-10T23:08:53+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006686s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005484s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.007286s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001910s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024792s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002482s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002353s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002256s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010060s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003593s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003791s ]
+
+[ 2014-05-10T23:08:55+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/myhd/people/10
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014761s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015177s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006205s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.021145s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.011394s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.005164s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_love` WHERE ( `uid` = 10 ) LIMIT 1   [ RunTime:0.001333s ]
+SQL: SELECT * FROM `tp_love` WHERE ( `uid` = 10 )  [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007669s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.002399s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.006108s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001218s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.006164s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='37' ) LIMIT 1   [ RunTime:0.004074s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000598s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.000740s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000624s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000641s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000611s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000597s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='39' ) LIMIT 1   [ RunTime:0.000685s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.002316s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001023s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000682s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000612s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000671s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.000757s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000663s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='32' ) LIMIT 1   [ RunTime:0.000807s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000595s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.000688s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000563s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000739s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.000690s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000572s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.000728s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000621s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.000720s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000613s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.000798s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000565s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000679s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.000683s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000546s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000589s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.000679s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000557s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='43' ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000559s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` WHERE ( `hdtime` > 1399734535 ) AND ( `uid` = 10 ) LIMIT 1   [ RunTime:0.000750s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` WHERE ( `hdtime` < 1399734535 ) AND ( `uid` = 10 ) LIMIT 1   [ RunTime:0.000820s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `hdtime` > 1399734535 ) AND ( `uid` = 10 ) LIMIT 6   [ RunTime:0.001925s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056838s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004124s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005217s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003365s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.008340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021892s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006968s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007319s ]
+
+[ 2014-05-10T23:09:00+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005328s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003901s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001624s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002480s ]
+
+[ 2014-05-10T23:09:12+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003994s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+
+[ 2014-05-10T23:16:40+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004921s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050117s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004644s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003655s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002538s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006438s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006760s ]
+
+[ 2014-05-10T23:16:49+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004860s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005176s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004006s ]
+
+[ 2014-05-10T23:16:55+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007697s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008034s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007120s ]
+
+[ 2014-05-10T23:17:04+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/doLogout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003248s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+
+[ 2014-05-10T23:17:04+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003500s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+NOTIC: [8] Undefined index:  username D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  id D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.007194s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.005299s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001443s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001845s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001600s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001299s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001189s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001126s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001307s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.082928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002168s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001484s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001618s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007545s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003377s ]
+
+[ 2014-05-10T23:17:04+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002892s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.007047s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029919s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001030s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001873s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000667s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005266s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001437s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2014-05-10T23:17:05+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006690s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.006575s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.007329s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002911s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002973s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014037s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003637s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003818s ]
+
+[ 2014-05-10T23:17:05+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004361s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002331s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.005948s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001996s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020976s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001658s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001053s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004755s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001323s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2014-05-10T23:17:05+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007799s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005320s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.006326s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001952s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037834s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004775s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004553s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003809s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020806s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004099s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004486s ]
+
+[ 2014-05-10T23:17:05+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006254s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010710s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.005194s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.001440s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033083s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003273s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002761s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002989s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014245s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004732s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005179s ]
+
+[ 2014-05-10T23:17:06+08:00 ] 127.0.0.1 /juhuodong/index.php/Register/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.016962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017317s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006096s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.007362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003544s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004216s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019606s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004064s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004317s ]
+
+[ 2014-05-10T23:17:06+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007233s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007672s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006547s ]
+
+[ 2014-05-10T23:20:53+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006003s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005110s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046868s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004248s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004636s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005090s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018337s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005009s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005298s ]
+
+[ 2014-05-10T23:22:13+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005431s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004634s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.010758s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `email` = '975306717@qq.com' ) AND ( `password` = '81dc9bdb52d04dc20036dbd8313ed055' )  [ RunTime:0.002556s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043826s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004347s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003245s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015306s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004459s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004710s ]
+
+[ 2014-05-10T23:22:14+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009115s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007177s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.010198s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.005850s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.002203s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.003911s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.004206s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.002688s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001140s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001155s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.004958s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.103815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003468s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004029s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004256s ]
+
+[ 2014-05-10T23:22:15+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.016491s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016876s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008898s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.012093s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.002916s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045287s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004128s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004167s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005232s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005534s ]
+
+[ 2014-05-10T23:22:15+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013008s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013518s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008586s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.008935s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.001944s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.046689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047152s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004066s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004872s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004938s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019941s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005470s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005789s ]
+
+[ 2014-05-10T23:22:15+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006499s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006924s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013189s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.007337s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001724s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043731s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004082s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.004196s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004117s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004856s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018058s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005598s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005914s ]
+
+[ 2014-05-10T23:22:15+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004085s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.006593s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.001685s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038336s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001616s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001570s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001982s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007867s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002025s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002172s ]
+
+[ 2014-05-10T23:22:15+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005301s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004438s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.004560s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.001846s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001815s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007241s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002299s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002451s ]
+
+[ 2014-05-10T23:22:17+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/myhd/people/12
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007090s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.002291s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.008213s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( `id` = 12 ) LIMIT 1   [ RunTime:0.005622s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.041208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_love` WHERE ( `uid` = 12 ) LIMIT 1   [ RunTime:0.009632s ]
+SQL: SELECT * FROM `tp_love` WHERE ( `uid` = 12 )  [ RunTime:0.004950s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.020246s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.001544s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.007998s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.002197s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.006429s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='46' ) LIMIT 1   [ RunTime:0.001362s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000422s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000379s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='41' ) LIMIT 1   [ RunTime:0.000738s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000363s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000561s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='26' ) LIMIT 1   [ RunTime:0.001408s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000694s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.001159s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.000952s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000453s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.000850s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000542s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000546s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='13' ) LIMIT 1   [ RunTime:0.000944s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000603s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.000666s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` WHERE ( `hdtime` > 1399735337 ) AND ( `uid` = 12 ) LIMIT 1   [ RunTime:0.001009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` WHERE ( `hdtime` < 1399735337 ) AND ( `uid` = 12 ) LIMIT 1   [ RunTime:0.000803s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `hdtime` > 1399735337 ) AND ( `uid` = 12 ) LIMIT 6   [ RunTime:0.001047s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.053594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053905s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001214s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001176s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000714s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005497s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001860s ]
+
+[ 2014-05-10T23:22:18+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002889s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.023118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023462s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036032s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001367s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005121s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001763s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012757s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003723s ]
+
+[ 2014-05-10T23:22:23+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009964s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010457s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.007403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007779s ]
+
+[ 2014-05-10T23:22:28+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007420s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007826s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.006162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006549s ]
+
+[ 2014-05-10T23:22:35+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007784s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006223s ]
+
+[ 2014-05-10T23:22:40+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006847s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007634s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002595s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035579s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001382s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000997s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005828s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001990s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2014-05-10T23:22:47+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/doLogin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.008517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008896s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005901s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.009391s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `email` = '123@123.com' ) AND ( `password` = '81dc9bdb52d04dc20036dbd8313ed055' )  [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.042894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043198s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003613s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.004692s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016251s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004017s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004239s ]
+
+[ 2014-05-10T23:22:48+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005626s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003687s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.004985s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.003027s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000925s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001158s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001140s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001135s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000781s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.000933s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001070s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.082071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082306s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003904s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003259s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003286s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015301s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.006773s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007289s ]
+
+[ 2014-05-10T23:22:51+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005779s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.028060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028485s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.014615s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.005899s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.051851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052652s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005758s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.005988s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006264s ]
+
+[ 2014-05-10T23:22:51+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009146s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.008147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008631s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.007565s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.002992s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.052099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005626s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005520s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.005205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021563s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.007578s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008075s ]
+
+[ 2014-05-10T23:22:51+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005023s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003102s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.009371s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.002049s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028959s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001883s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001872s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001595s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002946s ]
+
+[ 2014-05-10T23:22:52+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006524s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005352s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.007118s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.002443s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003678s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015589s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004835s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005068s ]
+
+[ 2014-05-10T23:22:52+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.007861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008299s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005413s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.007564s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.002429s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.040639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.007015s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.006132s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.004144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021749s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004591s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004848s ]
+
+[ 2014-05-10T23:22:53+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/myhd/people/10
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003629s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004072s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.007019s ]
+SQL: SELECT * FROM `tp_user` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.005085s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.009687s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( `id` = 10 ) LIMIT 1   [ RunTime:0.003518s ]
+SQL: SHOW COLUMNS FROM `tp_love` [ RunTime:0.006542s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_love` WHERE ( `uid` = 10 ) LIMIT 1   [ RunTime:0.000803s ]
+SQL: SELECT * FROM `tp_love` WHERE ( `uid` = 10 )  [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.011062s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.003609s ]
+SQL: SHOW COLUMNS FROM `tp_userdetail` [ RunTime:0.007161s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.007491s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='37' ) LIMIT 1   [ RunTime:0.004822s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000846s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000809s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='35' ) LIMIT 1   [ RunTime:0.001335s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001639s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000800s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.000907s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000810s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='34' ) LIMIT 1   [ RunTime:0.000743s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000753s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='39' ) LIMIT 1   [ RunTime:0.001217s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000783s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000636s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='29' ) LIMIT 1   [ RunTime:0.000872s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000812s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000752s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.000925s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000729s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='32' ) LIMIT 1   [ RunTime:0.001018s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000983s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000731s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.000791s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000759s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000884s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='16' ) LIMIT 1   [ RunTime:0.001041s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000743s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.001009s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='18' ) LIMIT 1   [ RunTime:0.001335s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000782s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000706s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='15' ) LIMIT 1   [ RunTime:0.000937s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000719s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000930s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='31' ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000774s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000721s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='36' ) LIMIT 1   [ RunTime:0.000832s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000782s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000709s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='14' ) LIMIT 1   [ RunTime:0.000937s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000782s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000750s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='17' ) LIMIT 1   [ RunTime:0.000912s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000907s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000742s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='42' ) LIMIT 1   [ RunTime:0.000962s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000799s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000989s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='43' ) LIMIT 1   [ RunTime:0.000853s ]
+SQL: SELECT `username` FROM `tp_user` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000674s ]
+SQL: SELECT * FROM `tp_userdetail` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.000912s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( 1=1 AND id='25' ) LIMIT 1   [ RunTime:0.000904s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` WHERE ( `hdtime` > 1399735373 ) AND ( `uid` = 10 ) LIMIT 1   [ RunTime:0.000943s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_huodong` WHERE ( `hdtime` < 1399735373 ) AND ( `uid` = 10 ) LIMIT 1   [ RunTime:0.001498s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `hdtime` > 1399735373 ) AND ( `uid` = 10 ) LIMIT 6   [ RunTime:0.002569s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001604s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001201s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000789s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005905s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003175s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003478s ]
+
+[ 2014-05-10T23:22:55+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004565s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002577s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001671s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001379s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000907s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007669s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002417s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002750s ]
+
+[ 2014-05-10T23:23:05+08:00 ] 127.0.0.1 /juhuodong/index.php/Touxiang/uploadImg
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005908s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006280s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005375s ]
+
+[ 2014-05-10T23:31:20+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/doLogout
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003253s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002619s ]
+
+[ 2014-05-10T23:31:20+08:00 ] 127.0.0.1 /juhuodong/index.php/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001955s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002191s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [8] Undefined index:  username D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 7 行.
+NOTIC: [8] Undefined index:  id D:\Program Files (x86)\xampp\htdocs\juhuodong\Home\Lib\Action\IndexAction.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `tp_huodong` [ RunTime:0.007816s ]
+SQL: SELECT * FROM `tp_huodong` ORDER BY love desc LIMIT 16   [ RunTime:0.003101s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '音乐' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001171s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '戏剧' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001472s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '聚会' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001132s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '电影' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001194s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '讲座' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001086s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '展览' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001850s ]
+SQL: SELECT * FROM `tp_huodong` WHERE ( `type` = '其他' ) ORDER BY love desc LIMIT 4   [ RunTime:0.001204s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.088320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088562s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003355s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004163s ]
+
+[ 2014-05-10T23:31:21+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/ad1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001622s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001822s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.006149s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.002344s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000677s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003064s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001109s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2014-05-10T23:31:21+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/ad2
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004624s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004503s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.008969s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.002402s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018218s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001508s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001811s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002044s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007513s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001971s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002114s ]
+
+[ 2014-05-10T23:31:21+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/a18116,b200361393,c2801,i0,m202,h
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006383s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001832s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.011068s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000685s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008911s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2014-05-10T23:31:21+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad1/ads/untitled
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002907s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.003962s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad1' )  [ RunTime:0.000870s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002394s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009713s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002824s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003006s ]
+
+[ 2014-05-10T23:31:21+08:00 ] 127.0.0.1 /juhuodong/index.php/Ad/ad2/ads/untitled_001.dat
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002733s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `tp_ad` [ RunTime:0.003944s ]
+SQL: SELECT * FROM `tp_ad` WHERE ( `adname` = 'ad2' )  [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022850s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002155s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001877s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002062s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008761s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002189s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002417s ]
+
+[ 2014-05-10T23:31:22+08:00 ] 127.0.0.1 /juhuodong/index.php/Register/register
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002353s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002618s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020681s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000798s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000687s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003150s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001631s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2014-05-10T23:31:22+08:00 ] 127.0.0.1 /juhuodong/index.php/Public/code/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003816s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004010s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003463s ]
+
+[ 2014-05-10T23:31:26+08:00 ] 127.0.0.1 /juhuodong/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020623s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001275s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001223s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000809s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005474s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001422s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001662s ]
+

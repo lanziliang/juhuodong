@@ -1,0 +1,205 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="zh-CN" class="ua-windows ua-ff29">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="renderer" content="webkit">
+
+    <title>
+<?php echo ($nn); ?>的留言板
+</title>
+    
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="Sun, 6 Mar 2005 01:00:00 GMT">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/mydetail.css" media="all">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/page.css" media="all">
+<script type="text/javascript" src="__PUBLIC__/Js/jquery.js"></script>
+
+<script>
+$(function(){
+var a=document.getElementById ("h");
+var b=document.getElementById ("t");
+
+
+if('<?php echo ($nn); ?>'=='我')
+{
+<?php if(is_array($liuyan)): foreach($liuyan as $key=>$vo): ?>document.getElementById ("<?php echo ($vo["id"]); ?>").style.display="block";<?php endforeach; endif; ?>
+}
+
+ if(a.innerHTML=='的账号')
+   {
+       a.innerHTML='登录';
+       b.innerHTML='注册';
+	   a.href="__APP__/Login/login";
+	   b.href="__APP__/Register/register";
+	   
+   }
+   });
+   
+</script>
+</head>
+<body><div style="display: none; left: 871px; top: -676px; width: 252px;" class="predictad" id="predictad_div"></div>
+ 
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+
+<div class="top-nav-info">
+    
+
+    <span class="perf-metric"><!-- _performtips_ --></span>
+    <ul>
+       
+       
+       <li class="nav-user-account">
+       <a id="h" href="__URL__/myhd/people/<?php echo ($uid); ?>" class="nav-login" rel="nofollow"><?php echo ($name); ?>的账号</a>
+      <a id="t" href="__APP__/Login/doLogout" class="nav-register" rel="nofollow">退出</a>
+       
+
+       </li>
+     </ul>
+</div>
+
+  </div>
+</div>
+
+<div id="db-nav-sns" class="nav">
+  <div class="nav-wrap">
+    <div class="nav-primary">
+      <div class="nav-items">
+        <ul>
+		<li><img src="__PUBLIC__/Images/home_logo2.png" onclick="javascript:window.location.href='__URL__/index'" style="cursor:pointer" /></li>
+          <li><a  href="__URL__/index">首页</a></li>
+            <li><a href="__URL__/mydetail/people/<?php echo ($uid); ?>">我的个人主页</a></li>
+          <li><a href="__URL__/myhd/people/<?php echo ($uid); ?>">我的聚活动</a></li>
+          <li>
+              <a href="__URL__/liuyan/people/<?php echo ($uid); ?>">我的留言</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+    <div id="wrapper">
+        
+
+        
+<div id="content">
+    
+    <h1><?php echo ($nn); ?>的留言板</h1>
+
+    <div class="grid-16-8 clearfix">
+        
+        
+        <div class="article">
+               
+
+
+
+    <div class="indent">
+      
+
+
+
+<ul class="mbt" id="comments">
+<?php if(is_array($liuyan)): foreach($liuyan as $key=>$vo): ?><li class="mbtl"><a href="http://www.douban.com/people/61383434/"><img src="__PUBLIC__/avatar/<?php echo ($vo["userdetail"]["image"]); ?>_60.jpg"width="45" alt="<?php echo ($vo["username"]); ?>"></a></li>
+<li class="mbtrdot comment-item" data-cid="39691306"><a href="http://www.douban.com/people/61383434/"><?php echo ($vo["username"]); ?></a>: &nbsp;
+<?php echo ($vo["content"]); ?>&nbsp; &nbsp; <span class="pl"><?php echo (date('y-m-d H:i',$vo["time"])); ?></span>
+    <br>
+    <div class="gact post-action content" id="<?php echo ($vo["id"]); ?>" style="display:none;">
+          <a rel="nofollow" href="__URL__/deleteliuyan/ly/<?php echo ($vo["id"]); ?>" onclick="if(confirm('确实要删除此条记录吗？')) return true;else return false;" class="j a_confirm_link">删除</a>
+    </div>
+    </li><?php endforeach; endif; ?>
+</ul>
+
+
+
+
+
+
+
+      
+    
+    
+<div align="center" ><?php echo ($page); ?></div>
+    
+
+
+
+    </div>
+
+
+        </div>
+        <div class="aside">
+                
+
+        </div>
+        <div class="extra">
+            
+        </div>
+    </div>
+</div>
+
+        
+<div id="footer">
+    
+
+<span id="icp" class="fleft gray-link">
+    © 2005－2014 douban.com, all rights reserved
+</span>
+
+<span class="fright">
+    <a href="http://www.douban.com/about">关于豆瓣</a>
+    · <a href="http://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="http://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="http://www.douban.com/about?policy=disclaimer">免责声明</a>
+    
+    · <a href="http://www.douban.com/help/">帮助中心</a>
+    · <a href="http://developers.douban.com/" target="_top">开发者</a>
+    · <a href="http://www.douban.com/mobile/">移动应用</a>
+    · <a href="http://www.douban.com/partner/">豆瓣广告</a>
+</span>
+
+
+</div>
+
+    </div>
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+    <!-- dis8-->
+
+  
+
+
+
+
+
+<div style="position: absolute; width: 1px; height: 1px;" id="dp_swf_engine"><object style="width: 1px; height: 1px;" id="_dp_swf_engine" data="swf.swf" type="application/x-shockwave-flash" height="1" width="1"><param value="always" name="allowscriptaccess"></object></div><div id="widditFloatingSettings" style="bottom: 0px; cursor: pointer; position: fixed ! important; z-index: 9999999; left: 0px; display: none; width: 50px; height: 26px; padding-left: 10px;"></div></body>
+</html>

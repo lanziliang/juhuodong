@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+        <title>权限列表 </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}general.css" rel="stylesheet" type="text/css" />
+        <link href="{$smarty.const.ADMIN_CSS_URL}main.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        
+        <h1>
+            <span class="action-span"><a href="__URL__/add">添加权限&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></span>
+            <span class="action-span1"><a href="#">当前位置是：权限管理-》权限列表</a> </span>
+            <div style="clear:both"></div>
+        </h1>
+        
+        
+        
+        <div class="list-div" id="listDiv">
+            <table cellpadding="3" cellspacing="1">
+                <tr>
+                    <th>序号</th>
+                    <th><a href="#">权限名称</a></th>
+                    <th><a href="#">父级id</a></th>
+                    <th><a href="#">模块</a></th>
+                    <th><a href="#">操作方法</a></th>
+                    <th><a href="#">全路径</a></th>
+                    <th><a href="#">级别</a></th>
+                  <tr>
+               
+                    {foreach $info as $k=>$v}
+                    <tr id="product1">
+                        <td align="center">{$v@iteration}</td>
+                        <td align="left" class="first-cell" style = 'padding-left="1"'>
+                            <img src="{$smarty.const.ADMIN_IMG_URL}menu_minus.gif" id="icon_0_1" width="9" height="9" border="0" style="margin-left:{$v.auth_level}em" />
+                            <a href="#">{$v.auth_name}</a>
+                        </td>
+                        <td align="center">{$v.auth_pid}</td>
+                        <td align="center">{$v.auth_c}</td>
+                        <td align="center">{$v.auth_a}</td>
+                        <td align="center">{$v.auth_path}</td>
+                        <td align="center">{$v.auth_level}</td>
+                    </tr>
+                    {/foreach}
+            </table>
+        </div>
+    </body>
+</html>
